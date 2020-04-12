@@ -1,0 +1,379 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.title {
+	background-color: #0077CD;
+	width: auto;
+	height: auto;
+}
+
+div.navbar {
+	width: auto;
+	height: auto;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	z-index: 1;
+}
+
+.main .desktop-content {
+	width: 100%;
+}
+
+
+
+h1 {
+	color: #0077CD;
+	font-family: "lato", sans-serif;
+}
+
+p {
+	color: #000000;
+	font-family: "lato", sans-serif;
+}
+
+a {
+	color: #0077CD;
+	font-style: bold;
+}
+
+a:hover {
+	color: #0046FF;
+}
+
+html {
+	margin-left: 0;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+body {
+	margin-left: 0;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-top: 0;
+	width: auto;
+}
+
+/* All styles for DESKTOP NAVIGATION */
+
+
+ul.desktop-navigation {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+
+ul.desktop-navigation li {
+  float: left;
+	width: 225px;
+	font-family: Calibri, sans-serif;
+	font-style: normal;
+	font-variant: normal;
+}
+
+ul.desktop-navigation li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+ul.desktop-navigation li a:hover {
+  background-color: #0077CD;
+}
+
+/* End DESKTOP NAVIGATION */
+
+
+/* Start MOBILE NAVIGATION */
+
+
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+	z-index: 2;
+}
+
+.topnav #links {
+  display: none;
+	z-index: 2;
+	font-family: "lato", sans-serif;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 30px;
+  display: block;
+	z-index: 2;
+
+}
+
+.topnav a.menu-icon {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+	z-index: 2;
+}
+
+.topnav a:hover {
+  background-color: #333;
+	z-index: 2;
+}
+
+.mob-bar {
+  background-color: #0077CD;
+  color: #0077CD;
+	height: 80px;
+	width: 100%;
+	z-index: 0;
+}
+
+/* End MOBILE NAVIGATION */
+
+
+.tcontent {
+	width: 100%;
+}
+
+.tcontent td {
+	width: 45%;
+	font-family: "lato", sans-serif;
+}
+
+.tcontent a {
+	text-decoration: none!important;
+	color: black!important;
+}
+
+.tcontent p {
+	text-align: left;
+}
+
+
+
+
+
+.top-left-box {
+	width: 45%;
+	background-color: red;
+	height: 100px;
+	z-index: 0;
+	padding: 0;
+	margin: 0;
+}
+
+.top-right-box {
+	width: 45%;
+	background-color: blue;
+	height: 100px;
+	z-index: 0;
+}
+
+.bottom-left-box {
+	width: 45%;
+	background-color: orange;
+	height: 100px;
+	z-index: 0;
+}
+
+.bottom-right-box {
+	width: 45%;
+	background-color: green;
+	height: 100px;
+	z-index: 0;
+}
+
+
+
+
+
+
+/* Start Modal popup */
+
+
+.quick-links #fbtn {
+  background-color: #0077CD;
+  border: none;
+  color: #ffffff;
+  padding: 12px 20px 12px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  z-index: inherit;
+}
+
+.quick-links #fbtn:hover,
+.quick-links #fbtn:focus {
+	cursor: pointer;
+}
+
+
+
+
+.quick-links .modal {
+  display: none;
+  position: fixed;
+  z-index: 2;
+  padding-top: 200px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: none;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+}
+
+/* Modal Content */
+.quick-links .modal-content {
+  background-color: #b3b3b3;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+
+.quick-links .modal-content h1 {
+	color: #0077CD;
+  margin: none;
+  width: auto;
+	display: inline-block;
+}
+
+
+.quick-links .modal-content p {
+  background-color: #b3b3b3;
+  margin-left: 10px;
+  width: auto;
+	display: inline-block;
+	text-align: left;
+}
+
+
+/* The Close Button */
+.quick-links .close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.quick-links .close:hover,
+.quick-links .close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+/* End Modal popup */
+
+
+.quick-links ul {
+	list-style-type: none;
+	list-style: none;
+	margin-top: 0 0 0 0;
+}
+
+.quick-links li {
+	margin: 10px;
+	font-family: "lato", sans-serif;
+	font-size: auto;
+}
+
+
+.logo {
+	width: 400px
+}
+
+
+.main {
+	margin: 25px;
+}
+
+
+.footer.map {
+	width: 100%;
+}
+
+.footer #footer-text {
+	margin-left: 10px;
+}
+
+
+.quick-links {
+	width: 100%;
+	height: auto;
+	background-color: #333;
+	margin-top: 0px;
+	padding-bottom: 20px;
+	padding-top: 10px;
+}
+
+.quick-links h1 {
+	color: white;
+	padding-left: 15px;
+	padding-top: 15px;
+	float: left;
+	margin-top: 0;
+	width: 100%;
+}
+
+.quick-links #gitimg {
+	padding-top: 40px;
+}
+
+
+@media only screen and (min-device-width: 1350px) {
+      .desktop-navigation {
+        display: block;
+      }
+			.desktop-content {
+				display: block;
+			}
+      .mobile-navigation {
+        display: none;
+      }
+			.topnav {
+				display: none;
+			}
+			.mobile-content{
+				display: none;
+			}
+    }
+
+ @media only screen and (max-device-width: 1351px) {
+      .desktop-navigation {
+        display: none;
+      }
+			.desktop-content {
+				display: none;
+			}
+      .mobile-navigation {
+        display: block;
+      }
+			.topnav {
+				display: block;
+			}
+			.mobile-content {
+				display: block;
+			}
+    }
