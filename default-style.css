@@ -19,6 +19,7 @@ div.navbar {
 
 .main .desktop-content {
 	width: 100%;
+	margin-right: 0;
 }
 
 
@@ -47,6 +48,7 @@ html {
 	margin-right: 0;
 	margin-bottom: 0;
 	margin-top: 0;
+	width: 100%;
 }
 
 body {
@@ -307,7 +309,7 @@ ul.desktop-navigation li a:hover {
 
 html {
 	margin: 0 0 0 0;
-	background-color: #C9CAB8; 
+	background-color: #C9CAB8;
 }
 
 
